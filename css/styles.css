@@ -1,0 +1,286 @@
+/* колір тексту #212121 */
+/* колір тексту при наведенні #2196F3 */
+/* колір тексту параграфів #757575 */
+/* колір лого #000000 , #2196F3 */
+/* колір тексту футера ##FFFFFF 60% */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+
+
+    color: var(--primary-text-color);
+
+}
+
+
+
+
+
+.page {
+    color: var(--primary-text-color);
+    background: #FFFFFF;
+}
+/* HEADER */
+
+/* logo */
+.logo {
+    color: #000000;
+
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.2;
+
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+/* contacts list */
+.contact li {
+text-decoration: none;
+
+font-weight: 500;
+} 
+
+
+
+.list {
+    list-style: none;
+}
+
+/* site nav */
+
+
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+    text-decoration: none;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+    
+}
+
+
+
+.phone-number {
+    color: var(--secondary-text-color);
+}
+
+.e-mail{
+    color: var(--secondary-text-color);
+}
+.e-mail:hover,
+.e-mail:focus{
+    color: var(--accent-text-color);
+}
+
+/*замовити послугу */
+
+.hero {
+    background: var(--primary-text-color);
+}
+
+.hero-title {
+    color: #FFFFFF;
+
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1.4;
+
+    text-align: center;
+}
+
+.link, .e-mail, .phone-number{
+    text-decoration: none;
+}
+
+
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+
+    cursor: pointer;
+}
+
+
+/* заголовки секцій */
+
+.section-title{
+    
+       
+        font-size: 36px;
+        line-height: 1.2;
+
+        text-align: center;
+}
+/* наші переваги */
+.section {
+    background: #F5F5F5;}
+
+.feature-list .title{
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.text{
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* наша команда */
+.section, .section-site {
+    background: #F5F4FA;}
+    
+.team h3{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+        /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.team  p{
+color: #757575;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+    /* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+/* розділи послуг фільтр */
+.services button{
+    background-color: #F5F4FA;
+
+
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+        /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.services button:hover,
+.services button:focus
+{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* приклади робіт */
+.section-site{
+    text-decoration: none;
+}
+.section-site h2{
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+        /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+}
+.section-site p{
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1,9;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer {
+    background: #2F303A;
+}
+.footer .logo{
+    color: #FFFFFF;
+}
+
+.google-link {
+    color: #FFFFFF
+}
+
+.address .link{
+color: #FFFFFF;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+    /* or 171% */
+
+letter-spacing: 0.03em;
+text-decoration: none;}
+
+    
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-text-color);
+}
+
+.address a[href="info@devstudio.com"],
+.address a[href="+380961111111"] {
+    color: rgba(255, 255, 255, 0.6);
+}
