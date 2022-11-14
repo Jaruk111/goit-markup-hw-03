@@ -56,12 +56,30 @@ body {
   text-decoration: none;
 }
 
+.conteiner.main-nav{
+    display: flex;
+    align-items: center;
+        
+}
+
 .logo-web {
   color: #2196f3;
 }
 
+
 /* contacts list */
-.contact li {
+.contact{
+display: flex;
+align-items: center;
+}
+
+.contacts.list .ithem + .ithem{
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.contacts li {
+
   text-decoration: none;
 
   font-weight: 500;
@@ -75,11 +93,25 @@ body {
 
 /* site nav */
 
+.site-nav{
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
 
 .site-nav .link {
+  display: block;  
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -88,6 +120,7 @@ body {
 
   text-decoration: none;
 }
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -113,8 +146,7 @@ body {
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 200px 452px 280px;
   color: #ffffff;
 
   text-transform: uppercase;
@@ -176,6 +208,10 @@ body {
   background: #f5f5f5;
 
   margin: 94px 215px;
+}
+
+.page-header{
+    margin: 0px 215px;
 }
 
 .feature-list .title {
@@ -269,6 +305,9 @@ body {
 /* footer */
 .footer {
   background: #2f303a;
+
+  margin: 0px 215px;
+
 }
 .footer .logo {
   color: #ffffff;
