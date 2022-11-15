@@ -67,23 +67,6 @@ body {
 }
 
 
-/* contacts list */
-.contact{
-display: flex;
-align-items: center;
-}
-
-.contacts.list .ithem + .ithem{
-    margin-right: 50px;
-    margin-left: auto;
-}
-
-.contacts li {
-
-  text-decoration: none;
-
-  font-weight: 500;
-}
 
 .list {
   list-style: none;
@@ -127,6 +110,24 @@ align-items: center;
   color: var(--accent-text-color);
 }
 
+/* contacts list */
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contacts.list .ithem+.ithem {
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.contacts li {
+
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
 .phone-number {
   color: var(--secondary-text-color);
 }
@@ -142,24 +143,65 @@ align-items: center;
 /*замовити послугу */
 
 .hero {
-  background: var(--primary-text-color);
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+    background: #2F303A;
 }
 
 .hero-title {
-  margin: 200px 452px 280px;
-  color: #ffffff;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
 
-  text-transform: uppercase;
-  font-size: 44px;
-  line-height: 1.4;
 
-  text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
 
 .link,
 .e-mail,
 .phone-number {
   text-decoration: none;
+}
+
+
+/* main button */
+.button.main {
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    border-radius: 4px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    margin-top: 30px;
+
+    color: #ffffff;
 }
 
 /* button */
@@ -174,26 +216,7 @@ align-items: center;
   cursor: pointer;
 }
 
-/* main button */
-.button.main {
-  position: absolute;
-  width: 152px;
-  height: 30px;
-  left: 724px;
-  top: 440px;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  /* identical to box height, or 188% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-}
 
 /* заголовки секцій */
 
@@ -222,6 +245,46 @@ align-items: center;
   text-transform: uppercase;
 }
 
+.feature-list.list{
+    display: flex;
+
+    position: absolute;
+    width: 1170px;
+    height: 98px;
+    left: 215px;
+    top: 774px;
+}
+
+/* чим ми займаємося */
+
+.section-title.our-classes{
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-classes.list{
+    display: flex;
+
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 966px;
+}
+.our-classes.list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 .text {
   color: var(--secondary-text-color);
 
@@ -245,6 +308,19 @@ align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team.list{
+    display: flex;
+
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+}
+
+.team.list .item:not(:last-child){
+    margin-right: 30px;
+}
 
 .team p {
   color: #757575;
@@ -266,8 +342,7 @@ align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  /* identical to box height, or 162% */
-
+  
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -278,6 +353,17 @@ align-items: center;
 }
 
 /* приклади робіт */
+
+.section-portfolio .conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+}
 .section-site {
   text-decoration: none;
 }
