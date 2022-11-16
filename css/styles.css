@@ -35,12 +35,35 @@ body {
 
 .conteiner {
   width: 1200px;
+  padding: 0, 15px;
 }
 
 .page {
   color: var(--primary-text-color);
   background: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+ul,
+ol{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img{
+  display: block;
+}
+
+
 /* HEADER */
 
 /* logo */
@@ -112,7 +135,7 @@ body {
 
 /* contacts list */
 .contact {
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -138,6 +161,12 @@ body {
 .e-mail:hover,
 .e-mail:focus {
   color: var(--accent-text-color);
+}
+
+.link,
+.e-mail,
+.phone-number {
+  text-decoration: none;
 }
 
 /*замовити послугу */
@@ -172,11 +201,7 @@ body {
     color: #FFFFFF;
 }
 
-.link,
-.e-mail,
-.phone-number {
-  text-decoration: none;
-}
+
 
 
 /* main button */
@@ -230,8 +255,10 @@ body {
 .section {
   background: #f5f5f5;
 
-  margin: 94px 215px;
-}
+  padding-top: 47px;
+  padding-bottom: 47px;
+
+  }
 
 .page-header{
     margin: 0px 215px;
@@ -355,18 +382,20 @@ body {
 /* приклади робіт */
 
 .section-portfolio .conteiner{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    
-    position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 174px;
+
 }
 .section-site {
   text-decoration: none;
 }
+
+.section-site .list{
+display: block;
+flex-wrap: wrap;
+}
+
+
 .section-site h2 {
   color: var(--primary-text-color);
 
@@ -392,7 +421,19 @@ body {
 .footer {
   background: #2f303a;
 
-  margin: 0px 215px;
+  display: flex ;
+  
+box-sizing: border-box;
+
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+
+    background: #2F303A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .footer .logo {
