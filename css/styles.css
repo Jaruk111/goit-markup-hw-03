@@ -165,6 +165,9 @@ img {
 
   flex-direction: column;
   text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -174,6 +177,8 @@ img {
   top: 280px; */
   margin-left: auto;
   margin-right: auto;
+
+  max-width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -203,6 +208,9 @@ img {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
+
+  padding: 10px 32px;
+  margin-top: 30px;
 }
 
 /* заголовки секцій */
@@ -213,13 +221,15 @@ img {
   margin: auto;
 
   text-align: center;
+  margin-bottom: 50px;
 }
 /* Наші переваги-feature list*/
 .conteiner.feature-list {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 
   padding-top: 47px;
   padding-bottom: 47px;
+  margin-bottom: 94px;
 }
 
 .feature-list .title {
@@ -229,6 +239,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -247,11 +258,16 @@ img {
   display: flex;
   margin-top: 94px;
 
-  width: 1170px;
+  /* width: 1170px;
   height: 98px;
   left: 215px;
-  top: 774px;
+  top: 774px; */
 }
+
+.feature-list .item{
+  width: 270px;
+}
+
 
 /* чим ми займаємося */
 .our-classes-container {
@@ -260,21 +276,23 @@ img {
 }
 
 .section-title.our-classes {
-  text-align: center;
+  
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
 
-  max-width: 366px;
+  /* max-width: 366px;
   height: 42px;
   left: 617px;
-  top: 966px;
+  top: 966px; */
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+
+  background-color: #ffffff;
 }
 
 .our-classes.list {
@@ -285,6 +303,8 @@ img {
   height: 386px;
   left: 215px;
   top: 966px;
+
+  background-color: #ffffff;
 }
 .our-classes.list .item:not(:last-child) {
   margin-right: 30px;
@@ -299,9 +319,13 @@ img {
 }
 
 /* наша команда */
-.section,
+/* .section,
 .section-site {
   background: #f5f4fa;
+} */
+
+.index-box{
+  padding: 30px 70px;
 }
 
 .team h3 {
@@ -382,8 +406,16 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
-  background-color: #F5F5F5;
+  background-color: #ffffff;
 
+}
+
+.box{
+  padding: 20px 24px;
+
+  background-color: #ffffff;
+  border-top: none;
+  border-color: #EEEEEE;
 }
 
 .section-site h2 {
