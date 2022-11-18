@@ -327,7 +327,9 @@ img {
 .section-site {
   background: #f5f4fa;
 } */
-
+.section-team{
+  background-color: #F5F4FA;
+}
 .index-box {
   align-content: center;
 
