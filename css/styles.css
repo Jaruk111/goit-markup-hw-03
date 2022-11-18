@@ -140,7 +140,6 @@ img {
   margin-right: 0;
 }
 
-
 .contacts-link {
   text-decoration: none;
 
@@ -230,7 +229,7 @@ img {
 .main-button:hover,
 .main-button:focus {
   color: var(--third-text-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 /* заголовки секцій */
@@ -245,7 +244,7 @@ img {
 }
 /* Наші переваги-feature list*/
 .conteiner.feature-list {
-  background-color:var(--primary-background-color);
+  background-color: var(--primary-background-color);
 
   padding-top: 47px;
   padding-bottom: 47px;
@@ -371,7 +370,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  
+
   margin-bottom: 10px;
 
   text-align: center;
@@ -486,7 +485,7 @@ img {
 
 /* footer */
 
-.section-footer {
+.footer {
   background-color: #2f303a;
 }
 .footer-container {
@@ -496,13 +495,12 @@ img {
   padding-bottom: 60px;
 
   width: 1200px;
-  padding: 0 215;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
   color: var(--third-text-color);
-  padding-top: 24px;
-  margin-bottom: 24px;
 }
 
 .google-link {
@@ -516,6 +514,8 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+
+  margin-bottom: 9px;
 
   letter-spacing: 0.03em;
   text-decoration: none;
