@@ -68,6 +68,9 @@ img {
   font-size: 26px;
   line-height: 1.2;
 
+  margin-top: 24px;
+  margin-bottom: 24px;
+
   text-decoration: none;
 }
 
@@ -135,6 +138,10 @@ img {
 }
 .contacts-item:last-child {
   margin-right: 0;
+}
+.contacts-link.link{
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .contacts-link {
@@ -489,7 +496,8 @@ img {
 
 .footer .logo {
   color: var(--third-text-color);
-  margin-bottom: 20px;
+  padding-top: 24px;
+  margin-bottom: 24px;
 }
 
 .google-link {
