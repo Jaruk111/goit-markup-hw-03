@@ -18,9 +18,7 @@ body {
 
   color: var(--primary-text-color);
   background-color: #ffffff;
-  /* max-width: 1600px;
-  margin: 0 auto; */
-}
+  }
 
 .container {
   max-width: 1200px;
@@ -53,7 +51,7 @@ img {
   text-decoration: none;
 }
 
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -165,11 +163,7 @@ img {
 /*HERO  замовити послугу */
 
 .hero {
-  /* width: 1600px; */
-  /* height: 600px;
-  left: 0px;
-  top: 80px; */
-  padding-top: 200px;
+    padding-top: 200px;
   padding-bottom: 200px;
 
   background: #2f303a;
@@ -184,14 +178,10 @@ img {
   text-align: center;
   /* justify-content: center; */
   align-items: center;
-  }
+}
 
 .hero-title {
-  /* width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px; */
-  margin-left: auto;
+   margin-left: auto;
   margin-right: auto;
 
   letter-spacing: 0.06em;
@@ -245,12 +235,10 @@ img {
   margin: auto;
 
   text-align: center;
-  
 }
 /* Наші переваги-feature list*/
 .conteiner.feature-list {
   background-color: var(--primary-background-color);
-
 }
 
 .feature-list .title {
@@ -279,7 +267,7 @@ img {
 .feature-list.list {
   display: flex;
   /* margin-top: 94px; */
-  }
+}
 
 .feature-list .item {
   width: 270px;
@@ -290,7 +278,7 @@ img {
 }
 
 /* чим ми займаємося */
-.our-classes-section{
+.our-classes-section {
   padding-top: 0;
 }
 
@@ -307,7 +295,7 @@ img {
   margin-right: auto;
   margin-bottom: 50px;
 
-    font-weight: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -322,9 +310,9 @@ img {
 
   background-color: var(--primary-background-color);
 }
-.our-classes.list .item:not(:last-child) {
+/* .our-classes.list .item:not(:last-child) {
   /* margin-right: 30px; */
-}
+ */
 
 .text {
   color: var(--secondary-text-color);
@@ -363,7 +351,6 @@ img {
   display: flex;
   padding-top: 50px;
   /* padding-bottom: 94px; */
-
 }
 
 .team.list .item:not(:last-child) {
@@ -455,8 +442,6 @@ img {
 .section-site .text {
   color: var(--secondary-text-color);
 
-  /* font-weight: 400;
-  font-size: 16px; */
   line-height: 1.9;
 
   letter-spacing: 0.03em;
@@ -473,9 +458,9 @@ img {
 .footer-container {
   display: flex;
   flex-direction: column;
- 
+
   width: 1200px;
- }
+}
 
 .footer .logo {
   color: var(--third-text-color);
@@ -494,7 +479,7 @@ img {
   line-height: 1.7;
 
   margin-bottom: 9px;
-  
+
   letter-spacing: 0.03em;
   text-decoration: none;
 }
