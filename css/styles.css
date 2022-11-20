@@ -14,7 +14,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* max-width: 100%; */
 
   color: var(--primary-text-color);
   background-color: #ffffff;
@@ -71,8 +70,8 @@ img {
   font-size: 26px;
   line-height: 1.2;
 
-  margin-top: 24px;
-  margin-bottom: 24px;
+  /* margin-top: 24px; */
+  margin-bottom: 20px;
 
   text-decoration: none;
 }
@@ -176,7 +175,7 @@ img {
 
   flex-direction: column;
   text-align: center;
-  /* justify-content: center; */
+  
   align-items: center;
 }
 
@@ -277,6 +276,15 @@ img {
   margin-right: 0;
 }
 
+.feature-list .text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+
 /* чим ми займаємося */
 .our-classes-section {
   padding-top: 0;
@@ -285,9 +293,6 @@ img {
 .our-classes-container {
   display: flex;
   flex-direction: column;
-
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 
 .section-title.our-classes {
@@ -310,9 +315,6 @@ img {
 
   background-color: var(--primary-background-color);
 }
-/* .our-classes.list .item:not(:last-child) {
-  /* margin-right: 30px; */
- */
 
 .text {
   color: var(--secondary-text-color);
@@ -378,8 +380,8 @@ img {
 }
 
 .services.list {
-  margin-bottom: 34px;
-  margin-top: 94px;
+  margin-bottom: 50px;
+  /* margin-top: 94px; */
 }
 
 .button {
@@ -396,12 +398,9 @@ img {
   border: none;
 
   padding: 6px 22px;
-
   margin-right: 8px;
-  /* margin-top: 94px;
-  margin-bottom: 34px; */
 
-  cursor: pointer;
+   cursor: pointer;
 }
 
 .services button:hover,
@@ -416,7 +415,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
+
   background-color: var(--primary-background-color);
 }
 
