@@ -305,8 +305,8 @@ img {
 }
 
 .section-title.our-classes {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -442,6 +442,10 @@ img {
   border-color: #eeeeee;
 }
 
+.card-item{
+  width: 370px;
+}
+
 .section-site .title {
   color: var(--primary-text-color);
 
@@ -483,11 +487,12 @@ img {
 /* .google-link {
   color: var(--third-text-color);
 } */
-
-.address .link {
+.address{
+  font-style: normal;
+}
+.address-item .link {
   color: var(--third-text-color);
 
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -495,10 +500,10 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.address .address.item:not(:last-child){
+.address-item:not(:last-child){
   margin-bottom: 9px;
 }
-.address.item.contacts .link {
+.address-item .link.address-contact  {
   color:rgba(255, 255, 255, 0.6);;
 }
 
